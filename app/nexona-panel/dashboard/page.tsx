@@ -4,7 +4,7 @@ import styles from "./dashboard.module.css";
 export default function DashboardPage() {
   // Example data for cards and status grid
   const cards = [
-    { title: 'Active Shipments', value: '2,847', sub: 'Active Shipments', badge: '+12.3%', color: 'green' },
+    { title: (<><span>Active</span><br /><span>Shipment</span></>), value: '2,847', sub: 'Active Shipments', badge: '+12.3%', color: 'green' },
     { title: 'Delivery Rate', value: '96.2%', sub: 'Delivery Rate', badge: '+2.8%', color: 'blue' },
     { title: 'In Transit', value: '1,598', sub: 'In Transit', badge: '+5.4%', color: 'purple' },
     { title: 'RTO Rate', value: '2.1%', sub: 'RTO Rate', badge: '-3.8%', color: 'orange' },
